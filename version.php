@@ -30,3 +30,4 @@ $plugin->version = 2014022700;
 $plugin->requires = 2012112900; 
 $plugin->component = 'tinymce_clozeeditor';
 $plugin->maturity = MATURITY_STABLE;
+$plugin->release = '1.0';

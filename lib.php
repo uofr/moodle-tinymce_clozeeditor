@@ -31,11 +31,16 @@ class tinymce_clozeeditor extends editor_tinymce_plugin {
 
     protected function update_init_params(array &$params, context $context,
             array $options = null) {
+        global $PAGE;
+        
+        // Check to ensure we are adding or editing a quiz question before adding the button to the toolbar
+        if (strpos($PAGE->url,'question/question.php?')!==false&&strpos($PAGE->url,'qtype=multianswer')!==false&&strpos($PAGE->url,'returnurl=%2Fmod%2Fquiz%2Fedit.php')!==false) {
+            // Add button after 'rtl' in advancedbuttons2.
+            $this->add_button_after($params, 2, ',|,clozeeditor', 'rtl');
 
-        // Add button after 'rtl' in advancedbuttons2.
-        $this->add_button_after($params, 2, ',|,clozeeditor', 'rtl');
-
-        // Add JS file, which uses default name.
-        $this->add_js_plugin($params);
+            // Add JS file, which uses default name.
+            $this->add_js_plugin($params);
+        }
+        
     }
 }

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
-  * Strings for component 'atto_cloze', language 'en'.
+ * Strings for component 'atto_cloze', language 'en'.
 
  * @package    tiny_mce
  * @subpackage clozeeditor

@@ -15,12 +15,12 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
-* Privacy Subsystem for tinymce_clozeeditor implementing null_provider.
-*
-* @package    tinymce_clozeeditor
-* @copyright  2018 German Valero <gvalero@unam.mx>
-* @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
-*/
+ * Privacy Subsystem for tinymce_clozeeditor implementing null_provider.
+ *
+ * @package    tinymce_clozeeditor
+ * @copyright  2018 German Valero <gvalero@unam.mx>
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
 
 namespace tinymce_clozeeditor\privacy;
 

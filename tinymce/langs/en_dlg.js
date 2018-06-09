@@ -1,4 +1,3 @@
-
 tinyMCE.addI18n('en.clozeeditor_dlg',{
     desc:"This is an editor for CLOZE questions",
     chooseclozeformat:"Please choose a Cloze sub-question format:",

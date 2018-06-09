@@ -29,4 +29,4 @@ $plugin->version = 2018060914; // The current plugin version (Date: YYYYMMDDXX).
 $plugin->requires = 2017111300; // 2017111300 is Moodle 3.4.0.
 $plugin->component = 'tinymce_clozeeditor';
 $plugin->maturity = MATURITY_STABLE;
-$plugin->release = '1.0'; // Maybe this should be 1.1.
+$plugin->release = 'v3.5-r1'; // Maybe this should be 1.1.

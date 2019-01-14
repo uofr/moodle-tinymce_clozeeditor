@@ -133,7 +133,7 @@ function countFilledInputs() {
 function countInputRows() {
     var aTable = document.getElementById("main_table");
     var items = aTable.getElementsByTagName("tr");
-    // - 1 Because there is a headline .
+    // It is - 1 Because there is a headline .
     return items.length - 1;
 }
 

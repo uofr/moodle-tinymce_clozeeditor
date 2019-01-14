@@ -32,8 +32,8 @@ function getAnswer(string, count) {
 // Delete messy stuff between two answers.
 function deleteInbetweenAnswers(string) {
     var temp = string;
-    // temp = strstr(string, '#'); .
-    // temp = strstr(temp, '~'); .
+    // Comment temp = strstr(string, '#'); .
+    // Comment temp = strstr(temp, '~'); .
 
     temp = deleteTillChar(temp, '~');
 

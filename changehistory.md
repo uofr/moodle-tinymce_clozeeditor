@@ -1,4 +1,7 @@
 # CHANGE HISTORY
+## 19 January 2019. v3.5r7
+* Started to fix errors reported by Moodle plugins database in JS files
+
 ## 05 September 2018. v3.5r5
 
 ### possible important changes in 

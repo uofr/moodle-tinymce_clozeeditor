@@ -83,7 +83,7 @@ function fillBoxes(string) {
 }
 
 function fillFirstBoxOnly(string) {
-    // Fires when user marked one or more words which should not contain '{' and '}' at first, 
+    // Fires when user marked one or more words which should not contain '{' and '}' at first.
     // Second, last, or first before last position.
 
     var selection;
@@ -327,7 +327,7 @@ var clozeeditorDialog = {
     insert : function() {
          // Insert the contents from the input into the document
          // Deprecated
-         // Comment tinyMCEPopup.editor.execCommand('mceInsertContent', false, getEncodeElement().value+" ");
+         // Comment tinyMCEPopup.editor.execCommand('mceInsertContent', false, getEncodeElement().value+" "); .
         tinyMCEPopup.editor.execCommand('mceInsertContent', false, encode() + " ");
 
         tinyMCEPopup.close();

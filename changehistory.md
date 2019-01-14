@@ -1,6 +1,30 @@
 # CHANGE HISTORY
+## 05 September 2018. v3.5r5
 
-### 09 June 2018. 1.0
+### possible important changes in 
+* tinymce/editor_plugin.js - restored file from moodle.com
+* dialog.css - restored file from moodle.com
+* version.php - Version and release changed
+
+## 05 September 2018. v3.5r4
+### minor changes in:
+* encode.js - Comments should start with Uppercase
+* parse.js - space in line before var noStrings = "";
+* parseAnswer.js - Comments should start with Uppercase
+* parseFeedback.js - Comments should start with Uppercase
+* parseHelper.js - Comments should start with Uppercase
+* parsePercentaje.js - Comments should start with Uppercase
+* popup.js - Comments should start with Uppercase
+* changehistory.md - THIS FILE
+* dialog.php  * @package    tinymce_colzeeditor  made * @package    tinymce_clozeeditor
+* version.php - Version and release changed
+
+### possible important changes in 
+* tinymce/editor_plugin.js - spaces between key and : character
+* dialog.css many spaces in many places and some : characters at end of line
+
+
+## 09 June 2018. 1.0
 * Add privacy plugin data
 * Increased window width (was 490) to 620 pixels
 * Fixed all errors reported by the Moodle code checker plugin: 

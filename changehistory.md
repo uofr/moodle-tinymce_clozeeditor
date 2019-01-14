@@ -1,46 +1,14 @@
 # CHANGE HISTORY
 ## 14 January 2019. v3.5r7
-* Started to fix errors reported by Moodle plugins database in JS files
-* editor_plugin.js
-* dialog1.js
-lib\editor\tinymce\plugins\clozeeditor\tinymce\js\dialog1.js
-    #136: ····//·-·1·Because·there·is·a·headline·.
-    Inline comments must start with a capital letter, digit or 3-dots sequence
+* Started to fix warnings reported by Moodle code checker plugin in JS files
+* Managed to fix all warnings except for two where Line exceeds 132 characters:
 
-lib\editor\tinymce\plugins\clozeeditor\tinymce\js\encode.js
-    #1: //·JavaScript·Document
-    Inline comments must end in full-stops, exclamation marks, or question marks
-    #3: //·Determine·whether·the·actual·test·is·of·type·"numerical",·or·any·other
-    Inline comments must end in full-stops, exclamation marks, or question marks
-    #14: //·Create·answers·array·where·all·answers·will·be·saved
-    Inline comments must end in full-stops, exclamation marks, or question marks
-    #18: //·Ultimate·encoding·function·which·does·all·the·calculations·upon·hitting·the·"encode"·button
-    Inline comments must end in full-stops, exclamation marks, or question marks
-    #20: ····//·Create·new·answers·object·in·the·array·for·all·filled·inputs
-    Inline comments must end in full-stops, exclamation marks, or question marks
-    #23: ········//·Fill·array,·and·use·getXxxElement·function·to·address·it
-    Inline comments must end in full-stops, exclamation marks, or question marks
-    #27: ············//·Add·':'·in·front·of·throttle·values·(Moodle's·Cloze·Quiz·Coding·Style)
-    Inline comments must end in full-stops, exclamation marks, or question marks
-    #37: ····//·document.Formular.output.value·=·"";
-    Inline comments must end in full-stops, exclamation marks, or question marks
-    #40: ····//·Create·output·for·all·filled·input·fields
-    Inline comments must end in full-stops, exclamation marks, or question marks
-    #43: ········//·var·add_correct·=·'';
-    Inline comments must end in full-stops, exclamation marks, or question marks
-    #45: ········//·Trim·all·texts·to·avoid·vacuous·white·spaces
-    Inline comments must end in full-stops, exclamation marks, or question marks
-    #51: ········//·If·it's·not·the·first·answer,·then·add·'~'·as·delimeter·between·answers
-    Inline comments must end in full-stops, exclamation marks, or question marks
-    #56: ········//·var·el·=·getPercentElement(i);
-    Inline comments must start with a capital letter, digit or 3-dots sequence
-    #57: ········//·Check·whether·a·percent·value·is·above·100%,·which·should·never·happen
-    Inline comments must end in full-stops, exclamation marks, or question marks
-    #68: ····················//·add_correct·+·····//·looks·like·this·was·vacuous
-    Inline comments must start with a capital letter, digit or 3-dots sequence
-    Inline comments must end in full-stops, exclamation marks, or question marks
-    #75: ····//·Finally·build·the·complete·question
-    Inline comments must end in full-stops, exclamation marks, or question marks
+lib\editor\tinymce\plugins\clozeeditor\dialog.php
+    #66: ············<option·value="SHORTANSWER_C"><?php·echo·get_string('shortanswer',·'quiz')."·(".get_string('casesensitive',·'quiz').")";·?></option>
+Line exceeds 132 characters; contains 144 characters
+    
+#90: ··<input·type="button"·name="addline"····value="<?php·echo·get_string('addfields',·'form',·1);·?>"·onclick="addRow('main_table');"·style="margin-top:·5px;·"·/>
+Line exceeds 132 characters; contains 159 characters
 
 ## 05 September 2018. v3.5r5
 

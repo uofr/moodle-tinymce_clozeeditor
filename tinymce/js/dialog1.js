@@ -1,4 +1,4 @@
-// script originates in dialog.php.
+// Script originates in dialog.php.
 // copied for clarification.
 
 // Some functions to retrieve objects.

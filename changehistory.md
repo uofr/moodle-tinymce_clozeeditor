@@ -1,5 +1,5 @@
 # CHANGE HISTORY
-## 19 January 2019. v3.5r7
+## 14 January 2019. v3.5r7
 * Started to fix errors reported by Moodle plugins database in JS files
 * editor_plugin.js
 * dialog1.js

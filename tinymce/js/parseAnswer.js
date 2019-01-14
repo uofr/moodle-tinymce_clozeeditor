@@ -1,12 +1,12 @@
-// JavaScript Document
+// JavaScript Document.
 
-// Parse Answer
+// Parse Answer.
 
-// This function will retrieve an answer
+// This function will retrieve an answer.
 function getAnswer(string, count) {
     var temp = getAnswerCode(string);
 
-    // Delete the first percentage
+    // Delete the first percentage.
     temp = deleteTillChar(temp, '%');
     temp = deleteTillChar(temp, '%');
 
@@ -15,7 +15,7 @@ function getAnswer(string, count) {
             temp = deleteAfterString(temp, '#');
 
             if (isStringInString(temp, ':')) {
-                // Indicates throttle values
+                // Indicates throttle values.
                 temp = deleteAfterString(temp, ':');
             }
             if (typeof(temp) == 'string') {
@@ -29,11 +29,11 @@ function getAnswer(string, count) {
     }
 }
 
-// Delete messy stuff between two answers
+// Delete messy stuff between two answers.
 function deleteInbetweenAnswers(string) {
     var temp = string;
-    // temp = strstr(string, '#');
-    // temp = strstr(temp, '~');
+    // temp = strstr(string, '#'); .
+    // temp = strstr(temp, '~'); .
 
     temp = deleteTillChar(temp, '~');
 
@@ -44,7 +44,7 @@ function deleteInbetweenAnswers(string) {
         temp = substr(temp, 1);
 
         if ((temp.charAt(1) == '%') || (temp.charAt(2) == '%') || (temp.charAt(3) == '%')) {
-            // When should this be the case? :-/
+            // When should this be the case? :-/ .
             temp = deleteTillChar(temp, '%');
         }
     }

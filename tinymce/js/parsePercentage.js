@@ -21,7 +21,7 @@ function percentOutput(string) {
                  return temp;
             }
         } else if (temp.charAt(0) == '=') {
-            // flat 100.
+            // Comment flat 100.
             return '100';
         } else {
             // Percentage not given, so it's zero.

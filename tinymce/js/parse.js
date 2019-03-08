@@ -106,6 +106,7 @@ function checkPercentInput(objectID) {
 
     /*
     This is highly experimental and just a mind experiment. Such a check might be implemented in the future
+
     var noStrings = "";
     for (var c; c < length(element.value); c++) {
     if (lowerCase(element.value[c]) in alphabet) {
@@ -114,6 +115,7 @@ function checkPercentInput(objectID) {
       noStrings = noStrings + element.value[c];
     }
     }
+
     element.value = noStrings;
     */
 

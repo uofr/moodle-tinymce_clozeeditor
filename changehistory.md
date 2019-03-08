@@ -1,4 +1,15 @@
 # CHANGE HISTORY
+## 14 January 2019. v3.5r7
+* Started to fix warnings reported by Moodle code checker plugin in JS files
+* Managed to fix all warnings except for two where Line exceeds 132 characters:
+
+lib\editor\tinymce\plugins\clozeeditor\dialog.php
+    #66: ············<option·value="SHORTANSWER_C"><?php·echo·get_string('shortanswer',·'quiz')."·(".get_string('casesensitive',·'quiz').")";·?></option>
+Line exceeds 132 characters; contains 144 characters
+    
+#90: ··<input·type="button"·name="addline"····value="<?php·echo·get_string('addfields',·'form',·1);·?>"·onclick="addRow('main_table');"·style="margin-top:·5px;·"·/>
+Line exceeds 132 characters; contains 159 characters
+
 ## 05 September 2018. v3.5r5
 
 ### possible important changes in 

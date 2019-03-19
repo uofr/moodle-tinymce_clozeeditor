@@ -1,8 +1,8 @@
-// JavaScript Document
+// JavaScript Document.
 
-// Parse Feedback
+// Parse Feedback.
 
-// Delete messy stuff between comments
+// Delete messy stuff between comments.
 function deleteInbetweenComments(string) {
     var temp = string;
     temp = strstr(temp, '~');
@@ -10,14 +10,14 @@ function deleteInbetweenComments(string) {
     return temp;
 }
 
-// Retrieve comment
+// Retrieve comment.
 function getComment(string, count) {
     var temp = getAnswerCode(string);
-    // Alert(temp);
+    // Alert(temp); .
 
     for (var i = 1; i <= countAnswers(); i++) {
         if (i == count) {
-            // The last comment is not followed by a ~, as this marks an answer
+            // The last comment is not followed by a ~, as this marks an answer.
             if (i != countAnswers()) {
                 temp = deleteAfterString(temp, '~');
             }

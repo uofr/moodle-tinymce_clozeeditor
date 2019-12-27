@@ -89,7 +89,7 @@ header('X-UA-Compatible: IE=edge');
   </table>  
   
   <input type="button" name="addline"    value="<?php echo get_string('addfields', 'form', 1);
-              ?>" onclick="addRow('main_table');" style="margin-top: 5px; " />
+                ?>" onclick="addRow('main_table');" style="margin-top: 5px; " />
  <!-- <input type="button" name="formaction" value="encode" onclick="encode()" style="margin-left: 8px; margin-top: 5px;  " />  -->
   <br />
  <input type="text" name="output" style="display: none; width: 456px; margin-top: 8px; " />

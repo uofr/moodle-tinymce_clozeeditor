@@ -1,4 +1,7 @@
 # CHANGE HISTORY
+## 01 April 2020. v3.8r05
+* Started to fix warnings reported by Moodle plugins database report.
+* Package tiny_mce is not valid
 
 ## 01 April 2020. v3.8r02
 * Started to fix warnings reported by Moodle plugins database report.

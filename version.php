@@ -25,8 +25,8 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 defined('MOODLE_INTERNAL') || die();
-$plugin->version = 2019122702; // The current plugin version (Date: YYYYMMDDXX).
+$plugin->version = 2020040101; // The current plugin version (Date: YYYYMMDDXX).
 $plugin->requires = 2017111300; // 2017111300 is Moodle 3.4.0.
 $plugin->component = 'tinymce_clozeeditor';
 $plugin->maturity = MATURITY_STABLE;
-$plugin->release = 'v3.8-r1'; // Maybe this should be 3.5 r 8.
+$plugin->release = 'v3.8-r02'; // Maybe this should be 3.5 r 8.

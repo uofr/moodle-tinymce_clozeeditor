@@ -13,7 +13,7 @@
 //
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
-// $Id: insert_cloze.php,v 1.4 2013/18/03
+// $Id: insert_cloze.php,v 1.4 2013/18/03.
 
 
 /**
@@ -63,7 +63,8 @@ header('X-UA-Compatible: IE=edge');
     <label for="quiz_type">{#clozeeditor.chooseclozeformat}</label><br />
     <select name="quizType" onchange="toggleThrottle(); " >
             <option value="SHORTANSWER"><?php echo get_string('shortanswer', 'quiz'); ?></option>
-            <option value="SHORTANSWER_C"><?php echo get_string('shortanswer', 'quiz')." (".get_string('casesensitive', 'quiz').")"; ?></option>
+            <option value="SHORTANSWER_C"><?php echo get_string('shortanswer', 'quiz').
+                          " (".get_string('casesensitive', 'quiz').")"; ?></option>
             <option value="MULTICHOICE" ><?php echo get_string('layoutselectinline', 'qtype_multianswer'); ?></option>
             <option value="MULTICHOICE_V"><?php echo get_string('layoutvertical', 'qtype_multianswer'); ?></option>
             <option value="MULTICHOICE_H"><?php echo get_string('layouthorizontal', 'qtype_multianswer'); ?></option>
@@ -87,7 +88,8 @@ header('X-UA-Compatible: IE=edge');
     </tbody>
   </table>  
   
-  <input type="button" name="addline"    value="<?php echo get_string('addfields', 'form', 1); ?>" onclick="addRow('main_table');" style="margin-top: 5px; " />
+  <input type="button" name="addline"    value="<?php echo get_string('addfields', 'form', 1);
+                ?>" onclick="addRow('main_table');" style="margin-top: 5px; " />
  <!-- <input type="button" name="formaction" value="encode" onclick="encode()" style="margin-left: 8px; margin-top: 5px;  " />  -->
   <br />
  <input type="text" name="output" style="display: none; width: 456px; margin-top: 8px; " />

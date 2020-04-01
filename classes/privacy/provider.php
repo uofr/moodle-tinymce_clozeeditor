@@ -27,7 +27,7 @@ namespace tinymce_clozeeditor\privacy;
 defined('MOODLE_INTERNAL') || die();
 
 /**
- * Privacy Subsystem for atto_cloze implementing null_provider.
+ * Privacy Subsystem for tinymce_clozeeditor implementing null_provider.
  *
  * @copyright   2018 Germán Valero <gvalero@unam.mx>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later

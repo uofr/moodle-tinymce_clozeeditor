@@ -25,7 +25,7 @@
                  * @param {string} url Absolute URL to where the plugin is located.
                  */
             init : function(ed, url) {
-                        // Register the command so that it can be invoked by 
+                        // Register the command so that it can be invoked by
                         // Using tinyMCE.activeEditor.execCommand('mceclozeeditor'); .
                         ed.addCommand('mceclozeeditor', function() {
                             lang = ed.getParam('language');
